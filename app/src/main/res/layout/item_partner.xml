@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/textPartnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название партнера"
+        android:textSize="16sp"
+        android:textColor="#00CED1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPartnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тип партнера"
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/textPartnerDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Директор: "
+        android:textSize="12sp"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textPartnerPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Телефон"
+            android:textSize="12sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textPartnerEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textSize="12sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textPartnerRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рейтинг: 0"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
